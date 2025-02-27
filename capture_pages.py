@@ -24,7 +24,7 @@ service = Service('C:/chromedriver/chromedriver.exe')
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 # Abre a primeira página
-driver.get('https://www.apodigi.melhorsde.com.br/melhor/word2021/mobile/index.html#p=1')
+driver.get('https://www.apodigi.melhorsde.com.br/melhor/powerpoint2021/mobile/index.html#p=1')
 time.sleep(2)  # Espera inicial para carregamento completo da primeira página
 
 def capture_page(page_number):
